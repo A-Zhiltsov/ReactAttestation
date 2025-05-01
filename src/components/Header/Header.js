@@ -24,15 +24,15 @@ const Header = ({ cartItemsCount }) => {
             </div>
             <nav class="header__right">
                 <label for="header__check"><img src={menu} alt="menu"/></label>
-                <Link to="/"> <img src={reg} alt="reg" /> </Link>
-                <Link to="/"> <img src={cart} alt="cart" /> </Link>
+                <Link to="/Registration"> <img src={reg} alt="reg" /> </Link>
+                <Link to="/Cart"> <img src={cart} alt="cart" /> </Link>
             </nav>
             <input class="header__checkbox" id="header__check" type="checkbox"/>
             <div class="mobile-menu">
                 <h3 class="mobile-menu__heading">MENU</h3>
                 <div class="mobile-menu__box">
                     <div class="mobile-menu__item">
-                        <Link to="/" class="mobile-menu__title"> MAN </Link> {/* Ссылка на каталог */}
+                        <Link to="/Catalog" class="mobile-menu__title"> MAN </Link> {/* Ссылка на каталог */}
                         <ul class="mobile-menu__list">
                             {/* Ссылки на элемент каталога */}
                             <Link to="/" class="mobile-menu__link"> Accessories </Link> 
@@ -42,7 +42,7 @@ const Header = ({ cartItemsCount }) => {
                         </ul>
                     </div>
                     <div class="mobile-menu__item">
-                    <Link to="/" class="mobile-menu__title"> WOMAN </Link> {/* Ссылка на каталог */}
+                    <Link to="/Catalog" class="mobile-menu__title"> WOMAN </Link> {/* Ссылка на каталог */}
                         <ul class="mobile-menu__list">
                             {/* Ссылки на элемент каталога */}
                             <Link to="/" class="mobile-menu__link"> Accessories </Link> 
@@ -51,7 +51,7 @@ const Header = ({ cartItemsCount }) => {
                             <Link to="/" class="mobile-menu__link"> T-Shirts </Link> 
                         </ul>
                     </div>
-                    <Link to="/" class="mobile-menu__title"> KIDS </Link> {/* Ссылка на каталог */}
+                    <Link to="/Catalog" class="mobile-menu__title"> KIDS </Link> {/* Ссылка на каталог */}
                         <ul class="mobile-menu__list">
                             {/* Ссылки на элемент каталога */}
                             <Link to="/" class="mobile-menu__link"> Accessories </Link> 

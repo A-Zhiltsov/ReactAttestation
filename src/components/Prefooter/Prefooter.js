@@ -11,7 +11,7 @@ const Prefooter = ({ cartItemsCount }) => {
   };
 
   return (
-    <section class="prefooter" >
+    <section class="prefooter center" >
             <div class="prefooter_quote">
                 <img src={Intersect} alt="photo Intersect"/>
                 <p class="quote_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>

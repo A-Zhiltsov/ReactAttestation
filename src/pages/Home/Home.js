@@ -20,7 +20,7 @@ const Home = ({ cartItemsCount }) => {
 
     return (
         <div>
-            <section class="promo">
+            <section class="promo center">
                 <div class="promo__img">
                     <img src={promo} alt="photo promo" />
                 </div>
